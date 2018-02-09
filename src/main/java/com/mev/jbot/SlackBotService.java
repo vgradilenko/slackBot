@@ -19,6 +19,7 @@ public class SlackBotService {
         this.utils = utils;
     }
 
+    // TODO: 09.02.18 need refactoring
     public Message getAnswer(String message) {
 
         if (checkUserMessage(message, vacationDictionary)) {
