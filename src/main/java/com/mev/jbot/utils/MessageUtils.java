@@ -1,4 +1,4 @@
-package com.mev.jbot;
+package com.mev.jbot.utils;
 
 import org.springframework.stereotype.Component;
 

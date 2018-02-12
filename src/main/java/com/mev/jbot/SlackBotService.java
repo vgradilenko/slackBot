@@ -1,5 +1,6 @@
 package com.mev.jbot;
 
+import com.mev.jbot.utils.MessageUtils;
 import me.ramswaroop.jbot.core.slack.models.Message;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
