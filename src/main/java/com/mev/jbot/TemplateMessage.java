@@ -1,15 +1,12 @@
 package com.mev.jbot;
 
-import com.mev.jbot.utils.FontFormat;
 import com.mev.jbot.utils.MessageUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
 
-import static com.mev.jbot.UserConst.MAX_FREE_DAYS;
-import static com.mev.jbot.UserConst.USER_DEYS;
-import static com.mev.jbot.UserConst.USER_MESSAGE;
+import static com.mev.jbot.UserConst.*;
 import static com.mev.jbot.utils.FontFormat.*;
 
 @Component
@@ -45,7 +42,7 @@ public class TemplateMessage {
                 .append(ITALIC).append("homework, дома [message]").append(ITALIC)
                 .append("\n\n")
 
-                .append(ONE_BLOCKQUOTE).append("Example: homework 3 cause :smile:").append("\n");
+                .append(ONE_BLOCKQUOTE).append("Example: homework 3 cause :+1:").append("\n");
 
         return builder.toString();
     }
